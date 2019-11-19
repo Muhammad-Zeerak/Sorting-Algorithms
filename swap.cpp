@@ -1,5 +1,7 @@
 #pragma once
 
+// will be used in different sorting algorithms so in separate class
+
 template <class X>
 inline void swap(X *p, X *q) {
 
