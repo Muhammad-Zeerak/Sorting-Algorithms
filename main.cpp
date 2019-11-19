@@ -1,3 +1,6 @@
+/*
+Made by Muhammad Zeerak, Alam Khalid and Haseeb Asim
+*/
 #include<iostream>
 #include<string>
 
@@ -30,7 +33,7 @@ void selectSort() {
 
 int main() {
 
-	/*int choice;
+	int choice;
 	cout << "1. Long\n2. Float\n3. String\n\nChoice: ";
 	cin >> choice;
 	switch (choice) {
@@ -45,10 +48,6 @@ int main() {
 		break;
 	default:
 		cout << "Invalid choice. Try again.\n";
-	} */
-	
-	int arr[] = {4,2,5,1};
-	quickSort(arr, 0, 3, 2);
-	printArray(arr, 4);
+		}
 }
 
